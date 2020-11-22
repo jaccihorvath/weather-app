@@ -1,37 +1,35 @@
-## Welcome to GitHub Pages
+# Homework 06 Server-Side APIs: Weather Dashboard
 
-You can use the [editor on GitHub](https://github.com/jaccihorvath/weather-app/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+## Description
+In this repository, you will find a simple weather application that allows users to search for weather forecasts by city. This application runs in the browser and features dynamically updated HTML and CSS powered by jQuery. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Also utilized in this application were:
+* The OpenWeather API, to retrieve weather data for cities
+* Moment.js library, to retrieve current date
 
-### Markdown
+## How it Works
+Users are directed to a web page that features:
+* A header with the title of the application
+* A search input
+* A search button
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Once a user inputs a city and clicks the search button, they are presented with:
+* The title of the city
+* The current date
+* A weather icon depicting the current conditions
+* The current temperature
+* The current humidity level
+* The current wind speed
+* The current UV index, color coded to indicate whether the conditions are favorable, moderate or severe
+* The 5-day forecast, including the date, a weather icon depicting the current conditions, the temperature and the humidity level.
 
-```markdown
-Syntax highlighted code block
+## Bugs
+I was unable to create a search history.
 
-# Header 1
-## Header 2
-### Header 3
+## Mock-up
+The finished project can be deployed [here](https://jaccihorvath.github.io/weather-app/).
 
-- Bulleted
-- List
+## Demo
+![demo](assets/demo.gif)
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/jaccihorvath/weather-app/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
