@@ -10,6 +10,10 @@ $("#search-btn").on("click", function(event) {
     getCurrentWeather(cityName);
     getFiveDayForecast(cityName);
 
+    $("#card-div").removeClass("d-none");
+    $("#five-day-header").removeClass("d-none");
+    $("#five-day-forecast").removeClass("d-none");
+
     //filling in current forecast header
     $("#city-name").text(cityName + " " + currentDate);
 
