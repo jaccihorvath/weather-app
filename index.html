@@ -31,18 +31,17 @@
 
         <div class="row">
             <div class="list-group" id="search-history">
-                <!-- <a href="#" class="list-group-item list-group-item-action">Youngstown</a>
+                <!-- <a href="#" class="list-group-item list-group-item-action"></a>
                 <a href="#" class="list-group-item list-group-item-action"></a>
                 <a href="#" class="list-group-item list-group-item-action"></a>
                 <a href="#" class="list-group-item list-group-item-action"></a>
                 <a href="#" class="list-group-item list-group-item-action"></a> -->
-                <!-- list generated in javascript -->
             </div>
         </div>
         </div>
 
         <div class="col-md-8 col-lg-9">
-            <div class="card">
+            <div class="card d-none" id="card-div">
             <div class="card-body" id="current-forecast-data">
                 <h2 class="card-title" id="city-name"></h2>
                 <span><img class="d-none" id="weather-icon" alt="weather icon"></span>
@@ -59,14 +58,14 @@
             <div class="row">
                 <div class="col-md-8 col-lg-9">
                     <br>
-                    <h2 id="five-day-header">5-day Forecast:</h2>
+                    <h2 class="d-none" id="five-day-header">5-day Forecast:</h2>
                 </div>
             </div>
 
-            <div class="row">
+            <div class="row d-none" id="five-day-forecast">
                 
                 <div class="col">
-                    <div class="card text-white bg-primary text-center" id="five-day-forecast">
+                    <div class="card text-white bg-primary text-center">
                         <h4 class="card-title" id="day-1"></h4>
                         <span><img class="d-none" id="day-1-img" alt="weather icon"></span>
                         <p class="card-text" id="day-1-temp"></p>
@@ -77,7 +76,7 @@
     
 
                 <div class="col">
-                    <div class="card text-white bg-primary text-center" id="five-day-forecast">
+                    <div class="card text-white bg-primary text-center">
                         <h4 class="card-title" id="day-2"></h4>
                         <span><img class="d-none" id="day-2-img" alt="weather icon"></span>
                         <p class="card-text" id="day-2-temp"></p>
@@ -87,7 +86,7 @@
     
     
                 <div class="col">
-                    <div class="card text-white bg-primary text-center" id="five-day-forecast">
+                    <div class="card text-white bg-primary text-center">
                         <h4 class="card-title" id="day-3"></h4>
                         <span><img class="d-none" id="day-3-img" alt="weather icon"></span>
                         <p class="card-text" id="day-3-temp"></p>
@@ -97,7 +96,7 @@
     
     
                 <div class="col">
-                    <div class="card text-white bg-primary text-center" id="five-day-forecast">
+                    <div class="card text-white bg-primary text-center">
                         <h4 class="card-title" id="day-4"></h4>
                         <span><img class="d-none" id="day-4-img" alt="weather icon"></span>
                         <p class="card-text" id="day-4-temp"></p>
@@ -107,7 +106,7 @@
     
     
                 <div class="col">
-                    <div class="card text-white bg-primary text-center" id="five-day-forecast">
+                    <div class="card text-white bg-primary text-center">
                         <h4 class="card-title" id="day-5"></h4>
                         <span><img class="d-none" id="day-5-img" alt="weather icon"></span>
                         <p class="card-text" id="day-5-temp"></p>
