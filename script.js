@@ -25,7 +25,7 @@ function getCurrentWeather(city) {
         method: "GET",
         url: "https://api.openweathermap.org/data/2.5/weather?q=" + city + "&units=imperial&appid=8b552cf5834fc92f10f511a83f0cf2d9"
     }).then(function(response) {
-        console.log(response);
+        
         showWeather(response);
 
         var weatherIcon = response.weather[0].icon
@@ -76,7 +76,6 @@ function getFiveDayForecast(city) {
         method: "GET",
         url: "https://api.openweathermap.org/data/2.5/forecast?q=" + city + "&units=imperial&appid=8b552cf5834fc92f10f511a83f0cf2d9"
     }).then(function(response) {
-        console.log(response);
 
         //setting info for 5 day forecast
         $("#day-1").text(moment(response.list[1].dt_txt).format('L'));
