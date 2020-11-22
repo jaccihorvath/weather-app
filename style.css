@@ -1,0 +1,32 @@
+h5 {
+    padding-top: 40px;
+}
+
+h2 {
+    padding-top: 15px;
+}
+
+.list-group {
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+.card {
+    margin-top: 15px;
+}
+
+.uvi-low {
+    background-color: green;
+}
+
+.uvi-med {
+    background-color: orange;
+}
+
+.uvi-high {
+    background-color: red;
+}
+
+#current-forecast-data {
+    padding-bottom: 15px;
+}
